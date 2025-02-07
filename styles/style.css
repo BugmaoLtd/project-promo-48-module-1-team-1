@@ -1,6 +1,30 @@
-body {
-    background: white;
-    justify-content: center;
+
+body{
+    font-family: "Rubik", serif;
+}
+
+header{
+    padding: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title{
+    background-color: rgb(202, 128, 37);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.menu-nav{
+    background-color: aquamarine;
+    display: flex;
+    width: 100%;
+    gap: 15px;
+
+
 }
 
 /* SECCIÓN QUIENES SOMOS*/
@@ -50,30 +74,4 @@ body {
     margin-bottom: 45px;
     margin-top: 45px;
 }
-/*AQUÍ TERMINA SECCIÓN QUIENES SOMOS*/body{
-    font-family: "Rubik", serif;
-}
-
-header{
-    padding: 15px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-title{
-    background-color: rgb(202, 128, 37);
-    font-size: 20px;
-    text-align: center;
-
-}
-
-.menu-nav{
-    background-color: aquamarine;
-    display: flex;
-    width: 100%;
-    gap: 15px;
-
-
-}
+/*AQUÍ TERMINA SECCIÓN QUIENES SOMOS*/
