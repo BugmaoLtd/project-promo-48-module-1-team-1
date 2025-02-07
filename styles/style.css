@@ -1,5 +1,6 @@
 /* HEADER*/
 
+
 body{
     font-family: "Rubik", serif;
 }
@@ -53,33 +54,5 @@ header{
     padding: 10px;
     gap: 15px;
 
+
 }
-
-/* HEADER*/
-
-
-/* FOOTER*/
-
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-copy{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-}
-
-.menu-nav-footer{
-    text-transform: uppercase;
-}
-
-.container-logo image{
-    width: 50px;
-    object-fit: contain;
-}
-
-/* FOOTER*/
