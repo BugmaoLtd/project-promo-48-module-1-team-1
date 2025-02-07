@@ -1,27 +1,85 @@
+/* HEADER*/
+
 body{
     font-family: "Rubik", serif;
 }
 
 header{
-    padding: 15px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.team-name-header{
+    width: 100%;
+    
+    
 }
 
 .header-title{
     background-color: rgb(202, 128, 37);
     font-size: 20px;
     text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    
 
+}
+
+.container-nav{
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+  
+  
+    
 }
 
 .menu-nav{
-    background-color: aquamarine;
     display: flex;
-    width: 100%;
-    gap: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 15px;
+   
+   
 
 
 }
+
+.menu-nav ul{
+    display:flex;
+    
+    padding: 10px;
+    gap: 15px;
+
+}
+
+/* HEADER*/
+
+
+/* FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-copy{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.menu-nav-footer{
+    text-transform: uppercase;
+}
+
+.container-logo image{
+    width: 50px;
+    object-fit: contain;
+}
+
+/* FOOTER*/
