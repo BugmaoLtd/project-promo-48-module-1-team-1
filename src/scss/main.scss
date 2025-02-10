@@ -25,12 +25,8 @@ a{
 }
 /* HEADER*/
 
-
-body{
-    font-family: "Rubik", serif;
-}
-
 header{
+    font-family: "Rubik", serif;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -196,6 +192,47 @@ div.center {
     justify-content: center;
 }
 
+// END SECTION TEAM
+
+// START FOOTER
+
+footer {
+    font-size: 14px;
+    border-top: solid 1px #b8b8b9;
+}
+
+footer p {
+    font-family: "Open Sans", serif;
+    color: #b8b8b9;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    font-family: "Rubik", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: rgba(84, 88, 90, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+
+div.adalab-image {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.adalab-image img {
+    width: 145px;
+    padding: 10px;
+}
+
+// END FOOTER
+
 /* Media tablet */
 
 @media (min-width: 768px){
@@ -208,9 +245,36 @@ div.center {
     .fort,.deb {
         width: 50%;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 25px 30px 55px;
+    }
+
+    footer p {
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    footer ul {
+
+        align-items: flex-end;
+        gap: 8px;
+        color: #54585a;
+    }
+
+    div.adalab-image {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 /* Media desktop */
 
-// END SECTION TEAM
+
+
+
+
 
