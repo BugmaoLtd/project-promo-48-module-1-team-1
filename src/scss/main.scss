@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.caja {
+    position: relative;
+    bottom: 50px;
+    height: 60px;
+    right: 33vh;
+    background-color: white;
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+    
+}
+.hero {
+    width: 320px;
+    height: 421px;
+}
+/* HEADER*/
+
+
+body{
+    font-family: "Rubik", serif;
+}
+
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-name-header{
+    width: 100%;
+    
+    
+}
+
+.header-title{
+    background-color: rgb(202, 128, 37);
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    
+
+}
+
+.container-nav{
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+  
+  
+    
+}
+
+.menu-nav{
+    display: flex;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 15px;
+   
+   
+
+
+}
+
+.menu-nav ul{
+    display:flex;
+    
+    padding: 10px;
+    gap: 15px;
+
+
+}
+
+/*Sección quienes somos*/
+.container-tarjet {
+    width:320px;
+    background-color: white;
+    padding:15px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    display: block;
+}
+
+.container-tarjet h4 {
+    color: #000;
+}
+.container-tarjet p {
+    color: #54585a;
+}
+.container-tarjet img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 4px;
+    border: solid 5px #b8b8b9;
+}
+.container-icons li{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    
+}
+.container-icons {
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-quienes {
+    gap:45px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+/*Aquí termina sección quienes somos*/
