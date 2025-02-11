@@ -1,10 +1,34 @@
-@use '../core/variables' as vars;
+footer {
+    font-size: 14px;
+    border-top: solid 1px #b8b8b9;
+}
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
+footer p {
+    font-family: "Open Sans", serif;
+    color: #b8b8b9;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    font-family: "Rubik", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: rgba(84, 88, 90, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+
+div.adalab-image {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.adalab-image img {
+    width: 145px;
+    padding: 10px;
 }

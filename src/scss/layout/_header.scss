@@ -1,5 +1,52 @@
-.page__header {
+header{
+  font-family: "Rubik", serif;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-name-header{
+  width: 100%;
+  
+  
+}
+
+.header-title{
+  background-color: rgb(202, 128, 37);
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  
+
+}
+
+.container-nav{
+  background-color: aqua;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  width: 100%;
+
+
+  
+}
+
+.menu-nav{
+  display: flex;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 15px;
+ 
+ 
+
+
+}
+
+.menu-nav ul{
+  display:flex;
+  
+  padding: 10px;
+  gap: 15px;
+
+
 }
