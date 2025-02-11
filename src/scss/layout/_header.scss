@@ -1,29 +1,40 @@
 .header{
-  background-color: rgb(9,157,141, 80);
+
   font-family: "Rubik", serif;
   color: white;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-group{
+  background-color: rgb(9,157,141);
   padding: 20px;
   width: 100%;
 }
-
-
 .header-title{
-  font-size: 25px;
+  font-size: 26px;
   text-transform: uppercase;
+  text-align: center;
   
 }
-
+.header-menu{
+  background-color: rgb(20,217,196);
+  padding: 24px;
+  width: 100%;
+}
 .header-nav{
   padding-top: 6px;
+
 }
 
 .header-list{
   display: flex;
   gap: 15px;
+  justify-content: center;
 }
 
 .header-list-item{
@@ -34,6 +45,14 @@
 @media (min-width: 768px){
   .header{
     flex-direction: inherit;
-    justify-content: space-between;
+ 
+  }
+
+  .header-title{
+    justify-content: left;
+  }
+  
+  .header-menu{
+    background-color: rgb(9,157,141)
   }
 }
