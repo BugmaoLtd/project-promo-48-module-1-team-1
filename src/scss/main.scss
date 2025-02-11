@@ -10,18 +10,32 @@ a{
 }
 .caja {
     position: relative;
-    bottom: 50px;
-    height: 60px;
-    right: 33vh;
+    top: 400px;
+    height: 80px;
+    width: 290px;   
     background-color: white;
     display: flex;
     display: inline-block;
-    padding: 10px;
+    padding: 50vh;
     
 }
-.hero {
+
+.parrafo {
+    font-family: "Open Sans";
+    width: 260px;
+    size: 18px;
+    color: var(#000);
+    text-align: center;
+}
+.image {
     width: 320px;
     height: 421px;
+    
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    
 }
 /* HEADER*/
 
