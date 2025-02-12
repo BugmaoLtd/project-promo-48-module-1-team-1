@@ -1,24 +1,25 @@
-footer {
+.footer {
     font-size: 14px;
     border-top: solid 1px #b8b8b9;
 }
 
-footer p {
+.footer-title {
     font-family: "Open Sans", serif;
     color: #b8b8b9;
+    font-size: 15px;
     font-weight: 400;
-    font-style: normal;
     text-align: center;
     padding: 20px;
 }
 
-footer ul {
+.footer-ul {
     font-family: "Rubik", serif;
     display: flex;
     flex-direction: column;
     gap: 3px;
     color: rgba(84, 88, 90, 0.75);
     text-align: center;
+    text-transform: uppercase;
     padding: 5px;
 }
 
@@ -32,3 +33,4 @@ div.adalab-image img {
     width: 145px;
     padding: 10px;
 }
+

@@ -6,16 +6,19 @@
     display: block; 
 }
 
-.h3-quienes {
+.quienes {
     color: #099d8d;
     margin-top:10px ;
     margin-bottom:10px ;
     font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
 }
-.container-tarjet h4{
-    color: #000;
-}
+
+
 .container-tarjet p {
+    font-family: "Open Sans";
+    font-size: 16px;
     color: #54585a;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -45,5 +48,14 @@
     margin-bottom: 45px;
     margin-top: 45px;
 }
+
+.nombre-adalaber{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+
 
 /*Media queries section quienes somos*/
