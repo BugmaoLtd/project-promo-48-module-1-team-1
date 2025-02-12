@@ -1,15 +1,22 @@
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+}
+
+
 .caja {
     position: relative;
     bottom: 50px;
-    height: 60px;
-    right: 33vh;
     background-color: white;
     display: flex;
     display: inline-block;
-    padding: 10px;
-    
+    font-family: "Open Sans", serif;
+    padding: 20px;  
 }
-.hero {
-    width: 320px;
-    height: 421px;
+.imagen {
+    width: 100%;
 }
+
+
