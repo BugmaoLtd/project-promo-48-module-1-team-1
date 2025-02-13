@@ -71,28 +71,4 @@ div.center {
     .fort,.deb {
         width: 50%;
     }
-
-    footer {
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        padding: 25px 30px 55px;
-    }
-
-    footer p {
-        padding: 10px;
-        align-items: flex-start;
-    }
-
-    footer ul {
-
-        align-items: flex-end;
-        gap: 8px;
-        color: #54585a;
-    }
-
-    div.adalab-image {
-        position: absolute;
-        bottom: 0;
-    }
 }
