@@ -1,20 +1,18 @@
 .container-tarjet {
-    padding:15px;
+    padding: 15px;
     margin: 0 auto;
-    text-align: center; 
-    display: block; 
+    text-align: center;
+    display: block;
 }
-
 
 .quienes {
     color: #099d8d;
-    margin-top:10px ;
-    margin-bottom:10px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: Rubik;
     font-size: 24px;
     font-weight: 500;
 }
-
 
 .container-tarjet p {
     font-family: "Open Sans";
@@ -31,14 +29,16 @@
     border: solid 5px rgba(0, 0, 0, 0.08);
 }
 
+.container-tarjet img:hover {
+    border-color: #14d9c4;
+}
 
 .container-icons {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap:15px;
+    gap: 15px;
     color: #099d8d;
-    
 }
 .section-quienes {
     justify-content: center;
@@ -49,18 +49,15 @@
     margin-top: 45px;
 }
 
-.nombre-adalaber{
+.nombre-adalaber {
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 100;
-
 }
-
-
 
 /*Media queries section quienes somos*/
 
-@media (min-width:768px){
+@media (min-width: 768px) {
     .container-tarjet img {
         width: 200px;
         height: 200px;
@@ -68,59 +65,57 @@
         border-radius: 4px;
         border: solid 5px rgba(0, 0, 0, 0.08);
     }
-    .container-tarjet{
+    .container-tarjet {
         display: flex;
-        gap:30px;
+        gap: 30px;
         align-items: center;
     }
-    .container-description{
+    .container-description {
         text-align: start;
-
-      
     }
-    .nombre-adalaber{
+    .nombre-adalaber {
         display: flex;
         justify-content: flex-start;
     }
-    .description-adalaber{
+    .description-adalaber {
         display: flex;
         justify-content: flex-start;
     }
-    .container-icons{
+    .container-icons {
         display: flex;
         justify-content: flex-start;
     }
     .section-quienes {
-        justify-content: center;      
+        justify-content: center;
         margin-left: 45px;
         margin-right: 45px;
         margin-bottom: 45px;
         margin-top: 45px;
     }
-    .tarjet-right{
+    .tarjet-right {
         display: flex;
-        flex-direction: row-reverse;        
-    }
-    .nombre-adalaber-right{
         flex-direction: row-reverse;
     }
-    .description-adalaber-right{
+    .nombre-adalaber-right {
+        flex-direction: row-reverse;
+    }
+    .description-adalaber-right {
         flex-direction: row-reverse;
         text-align: right;
     }
-    .container-icons-right{
+    .container-icons-right {
         flex-direction: row-reverse;
     }
-    .description-adalaber-left{
+    .description-adalaber-left {
         flex-direction: row-reverse;
         text-align: left;
     }
 }
 
 /*media queries desktop*/
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
     .section-quienes {
-        justify-content: center;      
+        justify-content: center;
         margin-left: 200px;
         margin-right: 200px;
         margin-bottom: 45px;
@@ -133,5 +128,4 @@
         border-radius: 4px;
         border: solid 5px rgba(0, 0, 0, 0.08);
     }
-
 }

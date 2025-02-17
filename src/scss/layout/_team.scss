@@ -1,4 +1,5 @@
-h2, h3 {
+h2,
+h3 {
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -18,7 +19,8 @@ section.team h2 {
     font-weight: 500;
 }
 
-section.team p, section.fort-deb p {
+section.team p,
+section.fort-deb p {
     color: #54585a;
     text-align: center;
     font-family: "Open Sans", serif;
@@ -42,8 +44,8 @@ section.fort-deb h3 {
 }
 
 div.triangle {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #fff;
@@ -58,17 +60,26 @@ div.center {
     justify-content: center;
 }
 
-
 /* Media tablet */
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     section.fort-deb {
         display: flex;
         flex-direction: row;
         gap: 10px;
     }
 
-    .fort,.deb {
+    .fort,
+    .deb {
         width: 50%;
+    }
+}
+
+/* Media desktop */
+
+@media (min-width: 1200px) {
+    section.team,
+    section.fort-deb {
+        padding: 30px 100px;
     }
 }
